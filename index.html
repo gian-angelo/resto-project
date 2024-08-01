@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="/img/footer-resto-logo.png" />
+  </head>
+  <body>
+    <!-- THIS IS FOR MOBILE navigation -->
+
+    <div class="mobile-navigation-container">
+      <div class="mobile-menu-icon">
+        <div class="container">
+          <i
+            class="fa-solid fa-bars openMenu"
+            id="openMenu"
+            onclick="openMenu()"
+          ></i>
+        </div>
+
+        <div class="container">
+          <i
+            class="fa-solid fa-xmark closeMenu"
+            id="closeMenu"
+            onclick="closeMenu()"
+          ></i>
+        </div>
+      </div>
+      <div class="mobile-navigation" id="mobile-navigation">
+        <nav>
+          <ul>
+            <li><a href="">Our Story</a></li>
+            <li><a href="">Menu</a></li>
+            <li><a href="">Reservations</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Reviews</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+      <header class="header">
+        <div class="logo-container">
+          <img src="./img/resto-logo.png" alt="" />
+        </div>
+
+        <div class="navigation-container">
+          <nav>
+            <ul>
+              <li><a href="">Our Story</a></li>
+              <li><a href="">Menu</a></li>
+              <li><a href="">Reservations</a></li>
+              <li><a href="">News</a></li>
+              <li><a href="">Reviews</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </div>
+
+    <section class="template">
+      <div class="container">
+        <h2 class="title">This Template Is Awesome</h2>
+        <div class="caption">
+          <div class="line">
+            <hr />
+          </div>
+          <p class="description">resto restaurant home page website template</p>
+          <div class="line">
+            <hr />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu">
+      <div class="container">
+        <div class="menu-logo-container">
+          <img src="/img/menu.png" alt="" />
+        </div>
+
+        <div class="menu-list-container">
+          <div class="menu-list">
+            <div class="name-desc-cont">
+              <div class="menu-name-desc-container">
+                <h3 class="menu-name">Voluptate cillum fugiat</h3>
+              </div>
+              <p class="menu-ingredients">Cheese, tomato, mushrooms, onions</p>
+            </div>
+
+            <div class="line">
+              <hr />
+            </div>
+
+            <div class="price-container">
+              <h3 class="price">$50</h3>
+            </div>
+          </div>
+
+          <div class="menu-list">
+            <div class="name-desc-cont">
+              <div class="menu-name-desc-container">
+                <h3 class="menu-name">Metus varius laoreet</h3>
+              </div>
+              <p class="menu-ingredients">
+                Chicken, mozzarella cheese, onions.
+              </p>
+            </div>
+
+            <div class="line">
+              <hr />
+            </div>
+
+            <div class="price-container">
+              <h3 class="price">$50</h3>
+            </div>
+          </div>
+
+          <div class="menu-list">
+            <div class="name-desc-cont">
+              <div class="menu-name-desc-container">
+                <h3 class="menu-name">Donec sodales magna</h3>
+              </div>
+              <p class="menu-ingredients">Tuna, Sweetcorn, Cheese.</p>
+            </div>
+
+            <div class="line">
+              <hr />
+            </div>
+
+            <div class="price-container">
+              <h3 class="price">$50</h3>
+            </div>
+          </div>
+
+          <div class="menu-list">
+            <div class="name-desc-cont">
+              <div class="menu-name-desc-container">
+                <h3 class="menu-name">Saugue velit cursus</h3>
+              </div>
+              <p class="menu-ingredients">Pineapple, Minced Beef, Cheese.</p>
+            </div>
+
+            <div class="line">
+              <hr />
+            </div>
+
+            <div class="price-container">
+              <h3 class="price">$50</h3>
+            </div>
+          </div>
+
+          <div class="menu-list">
+            <div class="name-desc-cont">
+              <div class="menu-name-desc-container">
+                <h3 class="menu-name">Voluptate cillum fugiat</h3>
+              </div>
+              <p class="menu-ingredients">Cheese, tomato, mushrooms, onions</p>
+            </div>
+
+            <div class="line">
+              <hr />
+            </div>
+
+            <div class="price-container">
+              <h3 class="price">$50</h3>
+            </div>
+          </div>
+
+          <div class="menu-list">
+            <div class="name-desc-cont">
+              <div class="menu-name-desc-container">
+                <h3 class="menu-name">Metus varius laoreet</h3>
+              </div>
+              <p class="menu-ingredients">
+                Chicken, mozzarella cheese, onions.
+              </p>
+            </div>
+
+            <div class="line">
+              <hr />
+            </div>
+
+            <div class="price-container">
+              <h3 class="price">$50</h3>
+            </div>
+          </div>
+
+          <div class="menu-list">
+            <div class="name-desc-cont">
+              <div class="menu-name-desc-container">
+                <h3 class="menu-name">Donec sodales magna</h3>
+              </div>
+              <p class="menu-ingredients">Tuna, Sweetcorn, Cheese.</p>
+            </div>
+
+            <div class="line">
+              <hr />
+            </div>
+
+            <div class="price-container">
+              <h3 class="price">$50</h3>
+            </div>
+          </div>
+
+          <div class="menu-list">
+            <div class="name-desc-cont">
+              <div class="menu-name-desc-container">
+                <h3 class="menu-name">Saugue velit cursus</h3>
+              </div>
+              <p class="menu-ingredients">Pineapple, Minced Beef, Cheese.</p>
+            </div>
+
+            <div class="line">
+              <hr />
+            </div>
+
+            <div class="price-container">
+              <h3 class="price">$50</h3>
+            </div>
+          </div>
+          <!-- end menu column 1 -->
+
+          <!-- end menu column 2 -->
+        </div>
+
+        <div class="load-more-container">
+          <a href="">load more | <i class="fa-solid fa-chevron-down"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOR FEATURED DISHES -->
+
+    <section class="featured-dishes">
+      <div class="container">
+        <div class="featured-dishes-and-line">
+          <h3 class="featured-title">FEATURED DISHES</h3>
+          <div class="line">
+            <hr />
+          </div>
+        </div>
+
+        <div class="featured-dishes-container">
+          <div class="featured-dish">
+            <a href=""
+              ><img
+                class="featured-dish-image"
+                src="/img/fugiat-nulia-sint.png"
+                data-lightbox="piano"
+                alt=""
+              />
+            </a>
+            <div class="dish-name-price-cont">
+              <div class="dish-name-cont">
+                <p class="dish-name">Fugiat nulia sint</p>
+              </div>
+
+              <div class="dish-price-cont">
+                <p class="dish-price">$30</p>
+              </div>
+            </div>
+
+            <div class="star-rating-cont">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star grayed"></i>
+            </div>
+          </div>
+
+          <div class="featured-dish">
+            <a href=""
+              ><img
+                class="featured-dish-image"
+                src="/img/daute-irure-dolor.png"
+                alt=""
+              />
+            </a>
+            <div class="dish-name-price-cont">
+              <div class="dish-name-cont">
+                <p class="dish-name">Fugiat nulia sint</p>
+              </div>
+
+              <div class="dish-price-cont">
+                <p class="dish-price">$30</p>
+              </div>
+            </div>
+
+            <div class="star-rating-cont">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star grayed"></i>
+            </div>
+          </div>
+
+          <div class="featured-dish">
+            <a href=""
+              ><img
+                class="featured-dish-image"
+                src="/img/officia-deserunt-mollit.png"
+                alt=""
+              />
+            </a>
+            <div class="dish-name-price-cont">
+              <div class="dish-name-cont">
+                <p class="dish-name">Fugiat nulia sint</p>
+              </div>
+
+              <div class="dish-price-cont">
+                <p class="dish-price">$30</p>
+              </div>
+            </div>
+
+            <div class="star-rating-cont">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star grayed"></i>
+            </div>
+          </div>
+
+          <div class="featured-dish">
+            <a href=""
+              ><img
+                class="featured-dish-image"
+                src="/img/pim-minim-veniam.png"
+                alt=""
+              />
+            </a>
+            <div class="dish-name-price-cont">
+              <div class="dish-name-cont">
+                <p class="dish-name">Fugiat nulia sint</p>
+              </div>
+
+              <div class="dish-price-cont">
+                <p class="dish-price">$30</p>
+              </div>
+            </div>
+
+            <div class="star-rating-cont">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star grayed"></i>
+            </div>
+          </div>
+
+          <div class="featured-dish">
+            <a href=""
+              ><img
+                class="featured-dish-image"
+                src="/img/pim-minim-veniam.png"
+                alt=""
+              />
+            </a>
+            <div class="dish-name-price-cont">
+              <div class="dish-name-cont">
+                <p class="dish-name">Fugiat nulia sint</p>
+              </div>
+
+              <div class="dish-price-cont">
+                <p class="dish-price">$30</p>
+              </div>
+            </div>
+
+            <div class="star-rating-cont">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star grayed"></i>
+            </div>
+          </div>
+
+          <div class="featured-dish">
+            <a href="">
+              <img
+                class="featured-dish-image"
+                src="/img/pim-minim-veniam.png"
+                alt=""
+              />
+            </a>
+            <div class="dish-name-price-cont">
+              <div class="dish-name-cont">
+                <p class="dish-name">Fugiat nulia sint</p>
+              </div>
+
+              <div class="dish-price-cont">
+                <p class="dish-price">$30</p>
+              </div>
+            </div>
+
+            <div class="star-rating-cont">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star grayed"></i>
+            </div>
+          </div>
+
+          <div class="featured-dish">
+            <a href=""
+              ><img
+                class="featured-dish-image"
+                src="/img/pim-minim-veniam.png"
+                alt=""
+              />
+            </a>
+            <div class="dish-name-price-cont">
+              <div class="dish-name-cont">
+                <p class="dish-name">Fugiat nulia sint</p>
+              </div>
+
+              <div class="dish-price-cont">
+                <p class="dish-price">$30</p>
+              </div>
+            </div>
+
+            <div class="star-rating-cont">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star grayed"></i>
+            </div>
+          </div>
+
+          <div class="featured-dish">
+            <a href=""
+              ><img
+                class="featured-dish-image"
+                src="/img/pim-minim-veniam.png"
+                alt=""
+              />
+            </a>
+            <div class="dish-name-price-cont">
+              <div class="dish-name-cont">
+                <p class="dish-name">Fugiat nulia sint</p>
+              </div>
+
+              <div class="dish-price-cont">
+                <p class="dish-price">$30</p>
+              </div>
+            </div>
+
+            <div class="star-rating-cont">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star grayed"></i>
+            </div>
+          </div>
+
+          <div class="featured-dish">
+            <a href=""
+              ><img
+                class="featured-dish-image"
+                src="/img/pim-minim-veniam.png"
+                alt=""
+              />
+            </a>
+            <div class="dish-name-price-cont">
+              <div class="dish-name-cont">
+                <p class="dish-name">Fugiat nulia sint</p>
+              </div>
+
+              <div class="dish-price-cont">
+                <p class="dish-price">$30</p>
+              </div>
+            </div>
+
+            <div class="star-rating-cont">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star grayed"></i>
+            </div>
+          </div>
+
+          <div class="featured-dish">
+            <a href=""
+              ><img
+                class="featured-dish-image"
+                src="/img/pim-minim-veniam.png"
+                alt=""
+              />
+            </a>
+            <div class="dish-name-price-cont">
+              <div class="dish-name-cont">
+                <p class="dish-name">Fugiat nulia sint</p>
+              </div>
+
+              <div class="dish-price-cont">
+                <p class="dish-price">$30</p>
+              </div>
+            </div>
+
+            <div class="star-rating-cont">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star grayed"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="the-gallery">
+      <div class="container">
+        <div class="the-gallery-and-line">
+          <h3 class="the-gallery-title">THE GALLERY</h3>
+          <div class="line">
+            <hr />
+          </div>
+        </div>
+
+        <div class="the-gallery-container" id="tab1">
+          <div class="portrait-image">
+            <a
+              href="img/gallery1.jpg"
+              data-lightbox="gallery1"
+              data-title="My caption"
+              ><img src="/img/gallery1.jpg" alt=""
+            /></a>
+          </div>
+
+          <div class="landscape-images">
+            <a
+              href="/img/gallery2.jpg"
+              data-lightbox="gallery2"
+              data-title="My caption"
+              ><img src="/img/gallery2.jpg" alt=""
+            /></a>
+            <a
+              href="/img/gallery3.jpg"
+              data-lightbox="gallery3"
+              data-title="My caption"
+              ><img src="/img/gallery3.jpg" alt=""
+            /></a>
+            <a
+              href="/img/gallery4.jpg"
+              data-lightbox="gallery4"
+              data-title="My caption"
+              ><img src="/img/gallery4.jpg" alt=""
+            /></a>
+            <a
+              href="/img/gallery5.jpg"
+              data-lightbox="gallery5"
+              data-title="My caption"
+              ><img src="/img/gallery5.jpg" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-container">
+          <div class="address1">
+            <p class="address-name">New York Restaurant</p>
+            <p class="address">3926 Anmoore Road</p>
+            <p class="address-state">New York, NY 10014</p>
+            <p class="phone-number">718-749-1714</p>
+          </div>
+
+          <div class="address2">
+            <p class="address-name">France Restaurant</p>
+            <p class="address">68, rue de la Couronne</p>
+            <p class="address-state">75002 PARIS</p>
+            <p class="phone-number">02.94.23.69.56</p>
+          </div>
+
+          <div class="footer-menu">
+            <a href="#">Blog</a>
+            <a href="#">Careers</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Contact</a>
+          </div>
+
+          <div class="footer-logo">
+            <a href="#"
+              ><img src="/img/footer-resto-logo.png" alt="resto logo"
+            /></a>
+            <p class="copyright">&copy All Rights Reserved 2014</p>
+            <p class="find-more">Find More at <a href="#">Pixelhint.com</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js"></script>
+
+    <script>
+      lightbox.option({
+        resizeDuration: 50,
+        wrapAround: true,
+        albumLabel: "Image %1 of %2",
+        disableScrolling: true,
+        positionFromTop: 200,
+      });
+    </script>
+
+    <script type="module">
+      var slider = tns({
+        container: ".featured-dishes-container",
+        items: 4,
+        slideBy: "page",
+        speed: 400,
+        autoplay: false,
+        controls: false,
+        // navPosition: "bottom",
+        controlsContainer: "#controls",
+        // controlsText: [
+        //   '<i class="fa-solid fa-chevron-left"></i>',
+        //   '<i class="fa-solid fa-chevron-right"></i>',
+        // ],
+        responsive: {
+          300: {
+            items: 1,
+            gutter: 20,
+          },
+          700: {
+            items: 2,
+            gutter: 20,
+          },
+          900: {
+            items: 3,
+            gutter: 20,
+          },
+          1000: {
+            items: 4,
+            gutter: 20,
+          },
+        },
+      });
+    </script>
+
+    <script src="./js/open-close-menu.js"></script>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+.footer{
+    background-color: #3B3B3B;
+
+    .footer-container{
+        display: flex;
+        padding: 6em 0;
+        gap: 2em;
+        justify-content: space-between;
+        
+        p,a{
+            color: white;
+            font-weight: 300;
+            font-size: 16px;
+        }
+
+        .address1,.address2,.footer-menu,.footer-logo{
+            display: flex;
+            flex-direction: column;
+            gap: .5em;
+        }
+
+        .address1,.address2{
+            .address-name,.phone-number{
+                font-weight: 700;
+            }
+        }
+
+        .footer-menu{
+            a{
+                font-weight: 700;
+                color: whitesmoke;
+                    transition: .3s all ease;
+
+                &:hover{
+                    color: white;
+                    transition: .3s all ease;
+                }
+            }
+        }
+
+        .footer-logo{
+            img{
+                width: 40%;
+                margin-bottom: 1em;
+            }
+
+            a{
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .footer{
+        .footer-container{
+            flex-direction: column;
+            gap: 3em;
+            text-align: center;
+            padding: 3em 0;
+
+            .footer-logo{
+                img{
+                    width: auto;
+                }
+            }
+        }
+    }
+
+}

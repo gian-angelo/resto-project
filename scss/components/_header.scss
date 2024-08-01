@@ -1,0 +1,105 @@
+.mobile-navigation-container{
+    display: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0;
+
+    .navigation-container{
+        display: flex;
+        align-items: center;
+
+        nav{
+           ul{
+            display: flex;
+            align-items: center;
+            
+                li{
+                    list-style: none;
+
+                    a{
+                        padding: 0 1em;
+                        color: darkgray;
+                        transition: .3s ease all;
+
+                        &:hover{
+                            color: gray;
+                            transition: .3s ease all;
+                        }
+                    }
+                }
+           } 
+        }
+    }
+}
+
+@media only screen and (max-width: 1080px){
+    .mobile-navigation-container{
+        display: block;
+        position: relative;
+
+        .mobile-menu-icon{
+            position: absolute;
+            right: 0;
+            top: 35px;
+            z-index: 1;
+
+            i{
+                // color: white;
+                cursor: pointer;
+            }
+
+            .openMenu{
+                display: block;
+                font-size: 36px;
+            }
+
+            .closeMenu{
+                display: none;
+                font-size: 42px;
+                color: white;
+                position: absolute;
+                top: -5px;
+                right: 33px;
+            }
+        }
+
+        .mobile-navigation{
+            background-color: #3B3B3B;
+            position: absolute;   
+            right: -540px;
+            display: block;
+            // width: 50%;
+            padding: 0 6em;
+            height: 100vh;
+            justify-content: center;
+            overflow: hidden;
+            transition: .3s ease all;
+
+            ul li{
+                list-style: none;
+                padding: 1em 0;
+                text-align: center;
+            }
+
+            a{
+               color: white;
+               font-size: 24px;
+            }
+
+            nav{
+                padding-top: 5em;
+            }
+        }
+    }
+
+
+
+    .header{
+        .navigation-container{
+            display: none;
+        }
+    }
+}
